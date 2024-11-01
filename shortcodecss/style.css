@@ -1,0 +1,79 @@
+/* The Modal (background) */
+#myMfThmbnlImgModalwpcr{
+    max-width: 50%;
+    top: 1%;
+    left: 30%;
+	z-index:999999;
+    /*overflow: auto;*/ /* Enable scroll if needed */
+}
+#mfpopuptitlewpcr{
+	text-align: center;
+	margin-top: -2px;
+}
+.mfluxpopup-closewpcr{
+   margin-right: -11px;
+    margin-top: -17px;
+}
+.mflux-main-classwpcr{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+}
+
+
+/* Modal mflux-Content */
+.mflux-contentwpcr{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+	max-height:600px;
+	overflow:auto;
+}
+
+/* The Close Button */
+.mfluxpopup-closewpcr{
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.mfluxpopup-closewpcr:hover,
+.mfluxpopup-closewpcr:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.mflux-bottom-closewpcr{
+	float: right;
+	border-radius: 5px;
+	    padding: 3px 20px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width:600px){
+	#myMfThmbnlImgModalwpcr{
+    max-width: 100% !important;
+    top: 0%;
+    left: 0%;
+	max-height:180px !important;
+    /*overflow: auto;*/
+}
+}
+
+/*
+@media only screen and (min-width:601px) and (max-width:880px){
+	#myMfThmbnlImgModalwpcr{
+    max-width: 50%;
+    top: 0%;
+    left: 26%;
+    overflow: auto;
+}
+}
+*/
